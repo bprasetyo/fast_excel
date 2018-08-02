@@ -44,6 +44,10 @@ module FastExcel
     result
   end
 
+  def self.read(result)
+    result
+  end
+
   # Creates internal Libxlsxwriter::Datetime from Datetime object
   def self.lxw_datetime(time)
     date = Libxlsxwriter::Datetime.new
